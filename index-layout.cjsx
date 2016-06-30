@@ -372,7 +372,7 @@ module.exports = ->
                                                     <div className="pd407-0-0-0-0-1-0-0-0-0-0-2-0">
                                                         <a href="{ p.link }" className="pd407-0-0-0-0-1-0-0-0-0-0-2-0-0">
                                                             <div className="pd407-text-2">
-                                                                <div>{ p.title }<span style="color: rgb(130, 130, 130); font-size: 10.6667px;">&nbsp;({ p.site })</span></div>
+                                                                <div>{ p.title }<span style={color: 'rgb(130, 130, 130)', fontSize: 10}>&nbsp;({ p.site })</span></div>
                                                             </div>
                                                         </a>
                                                     </div>
