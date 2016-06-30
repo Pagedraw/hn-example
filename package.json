@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.4.1",
     "cjsx-loader": "^2.1.0",
     "coffee": "^3.0.3",
     "coffee-loader": "^0.7.2",
+    "jquery": "^3.0.0",
+    "moment": "^2.13.0",
     "react": "^0.14.7",
     "react-addons-linked-state-mixin": "^0.14.7",
     "react-dom": "^0.14.7",

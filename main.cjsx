@@ -1,7 +1,11 @@
 React = require 'react'
 ReactDOM = require 'react-dom'
 LinkedStateMixin = require 'react-addons-linked-state-mixin'
+
 _ = require 'underscore'
+$ = require 'jquery'
+Promise = require 'bluebird'
+moment = require 'moment'
 
 Index = React.createClass
     mixins: [LinkedStateMixin]
@@ -10,38 +14,34 @@ Index = React.createClass
         layout.call({
             "un": "jpochtar"
             "p": 3
-            "posts": [
-                {"i": 1, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 2, "title": "Pagedraw #1 in VC funding", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 3, "title": "Pagedraw is the best thing ever", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 4, "title": "Pagedraw changed my life", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 5, "title": "This article has a super long title, in fact it just goes on and on and on and on and on and on and on and on and on and on and it really is waaaaaaaay too long but you know it just keeps going and going and going and going ", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 6,  "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 7, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 8, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 9, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 10, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 11, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 12, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 13, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 14, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 15, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 16, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 17, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 18, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 19, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 20, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 21, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 22, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 23, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 24, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 25, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 26, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 27, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 28, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 29, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-                {"i": 30, "title": "Move Loot Shuts Down", "site": "techcrunch.com", "points": 88, "poster": "me", "hours_ago": 2, "n_comments": "30"}
-            ]
+            "posts": @state.posts
         })
+
+    getInitialState: ->
+        posts: []
+
+    componentWillMount: ->
+        Promise.resolve($.get 'https://hacker-news.firebaseio.com/v0/topstories.json')
+            .then (json) -> json.slice(0, 30)
+            .then (top30storyIds) ->
+                Promise.map(top30storyIds, (story_id) -> Promise.resolve($.get "https://hacker-news.firebaseio.com/v0/item/#{story_id}.json"))
+            .then (top_stories) =>
+                @setState posts: top_stories.map (story, i) -> {
+                    i: i + 1
+                    title: story.title
+                    site: do ->
+                        match = story.url?.match(/:\/\/([^\/]+)/)
+                        if match
+                            match[1]
+                        else
+                            story.url
+                    points: story.score
+                    poster: story.by
+                    time_ago: moment(story.time).fromNow()
+                    n_comments: story.descendants
+                    link: story.url
+                }
+
+
 
 ReactDOM.render(<Index />, document.getElementById('app'))
