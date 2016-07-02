@@ -344,7 +344,7 @@ module.exports = ->
                         <div className="pd407-0-0-0-0-0">
                             <div className="pd407-layout-9">
                                 <div className="pd407-0-0-0-0-0-0-0">
-                                    <img src="https://ucarecdn.com/3b0e01ee-b0cf-4da1-b793-44e337eb9768/" className="pd407-image-6" /> 
+                                    <img className="pd407-image-6" src="https://ucarecdn.com/3b0e01ee-b0cf-4da1-b793-44e337eb9768/" /> 
                                     <div className="pd407-text-6">
                                         <div><b>Hacker News</b> &nbsp;new | threads | comments | show | ask | jobs | submit</div>
                                     </div>
@@ -356,7 +356,7 @@ module.exports = ->
                         </div>
                         <div className="pd407-0-0-0-0-1">
                             <div className="pd407-0-0-0-0-1-0">
-                                { (this.posts).map (p) =>
+                                { this.posts.map (p) =>
                                     <div className="pd407-0-0-0-0-1-0-0-0">
                                         <div className="pd407-layout-1">
                                             <div className="pd407-0-0-0-0-1-0-0-0-0-0">
@@ -365,19 +365,19 @@ module.exports = ->
                                                 </div>
                                                 <div className="pd407-0-0-0-0-1-0-0-0-0-0-1">
                                                     <div className="pd407-0-0-0-0-1-0-0-0-0-0-1-0">
-                                                        <img src="https://ucarecdn.com/b9cba6a1-8eb4-4a0c-bdd7-9f655492dab2/" className="pd407-image-5" /> 
+                                                        <img className="pd407-image-5" src="https://ucarecdn.com/b9cba6a1-8eb4-4a0c-bdd7-9f655492dab2/" /> 
                                                     </div>
                                                 </div>
                                                 <div className="pd407-layout-8">
                                                     <div className="pd407-0-0-0-0-1-0-0-0-0-0-2-0">
-                                                        <a href="{ p.link }" className="pd407-0-0-0-0-1-0-0-0-0-0-2-0-0">
+                                                        <a className="pd407-0-0-0-0-1-0-0-0-0-0-2-0-0" href={""+p.link+""}>
                                                             <div className="pd407-text-2">
-                                                                <div>{ p.title }<span style={color: 'rgb(130, 130, 130)', fontSize: 10}>&nbsp;({ p.site })</span></div>
+                                                                <div>{ p.title }<span style="color: rgb(130, 130, 130); font-size: 10.6667px;">&nbsp;({ p.site })</span></div>
                                                             </div>
                                                         </a>
                                                     </div>
                                                     <div className="pd407-0-0-0-0-1-0-0-0-0-0-2-1">
-                                                        <a href="{ p.link }" className="pd407-0-0-0-0-1-0-0-0-0-0-2-1-0">
+                                                        <a className="pd407-0-0-0-0-1-0-0-0-0-0-2-1-0" href={""+p.link+""}>
                                                             <div className="pd407-text-8">
                                                                 <div>{ p.points } by { p.poster } { p.time_ago }&nbsp;| { p.n_comments } comments</div>
                                                             </div>
