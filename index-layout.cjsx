@@ -234,7 +234,7 @@ module.exports = ->
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 10px;
+                  margin-top: 13px;
                 }
                 
                 .pd407-text-80 {
@@ -255,7 +255,7 @@ module.exports = ->
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 13px;
+                  margin-top: 10px;
                 }
                 
                 .pd407-text-44 {
@@ -303,7 +303,7 @@ module.exports = ->
                   padding-bottom: 15px;
                   display: flex;
                   flex-direction: column;
-                  margin-left: 8.8659793814433%;
+                  margin-left: 8.969072164948454%;
                   width: 82.16494845360825%;
                   background: rgb(246, 246, 239);
                 }
@@ -312,11 +312,11 @@ module.exports = ->
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 9px;
+                  margin-top: 8px;
                 }
                 
                 .pd407-layout-80 {
-                  padding-bottom: 7px;
+                  padding-bottom: 8px;
                   display: flex;
                   flex-direction: column;
                   margin-left: 0%;
