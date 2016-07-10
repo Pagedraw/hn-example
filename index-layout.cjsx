@@ -511,7 +511,7 @@ module.exports = ->
                                                     <div className="pd1318-0-0-0-1-1-0-0-0-0-0-2-0">
                                                         <a className="pd1318-0-0-0-1-1-0-0-0-0-0-2-0-0" href={""+p.link+""}>
                                                             <div className="pd1318-text-2">
-                                                                <div>{ p.title }<span style="color: rgb(130, 130, 130); font-size: 10.6667px;">&nbsp;({ p.site })</span></div>
+                                                                <div>{ p.title }<span style={"color": "rgb(130, 130, 130)", fontSize: 10.6}>&nbsp;({ p.site })</span></div>
                                                             </div>
                                                         </a>
                                                     </div>
