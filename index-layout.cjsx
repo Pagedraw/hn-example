@@ -1,6 +1,6 @@
 React = require('react')
 module.exports = ->
-    <div className="pd407">
+    <div className="pd1318">
         <span>
             <style dangerouslySetInnerHTML={__html: """
                 * {
@@ -20,17 +20,23 @@ module.exports = ->
                     color: inherit;
                 }
                 
-                .pd407-image-6 {
-                  margin-left: 0.8782936010037641%;
-                  width: 2.3839397741530743%;
-                  outline: 1px solid white;
+                .pd1318-0-0-0-0 {
+                  min-height: 0px;
+                  width: 8.8659793814433%;
+                  min-width: 0px;
+                }
+                
+                .pd1318-image-6 {
+                  width: 19px;
+                  flex-shrink: 0;
                   background-size: cover;
                 }
                 
-                .pd407-text-6 {
-                  min-height: 19px;
-                  margin-left: 0.6273525721455459%;
+                .pd1318-text-6 {
                   width: 507px;
+                  min-height: 19px;
+                  flex-shrink: 0;
+                  margin-left: 5px;
                   font-family: Verdana, Geneva, sans-serif;
                   color: #000000;
                   font-size: 14px;
@@ -41,10 +47,16 @@ module.exports = ->
                   word-wrap: break-word;
                 }
                 
-                .pd407-text-4 {
-                  min-height: 19px;
-                  margin-left: 1.3801756587202008%;
+                .pd1318-0-0-0-1-0-0-0-2 {
+                  min-height: 0px;
+                  width: 100%;
+                  min-width: 0px;
+                }
+                
+                .pd1318-text-4 {
                   width: 242px;
+                  min-height: 19px;
+                  flex-shrink: 0;
                   font-family: Verdana, Geneva, sans-serif;
                   color: #000000;
                   font-size: 14px;
@@ -55,33 +67,43 @@ module.exports = ->
                   word-wrap: break-word;
                 }
                 
-                .pd407-0-0-0-0-0-0-0 {
+                .pd1318-0-0-0-1-0-0-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 3px;
+                  min-height: 19px;
+                  flex-shrink: 0;
+                  min-width: 786px;
+                  padding-left: 7px;
+                  padding-right: 6px;
                 }
                 
-                .pd407-layout-9 {
-                  padding-bottom: 4px;
+                .pd1318-layout-9 {
                   display: flex;
                   flex-direction: column;
-                  margin-left: 0%;
+                  min-height: 26px;
                   width: 100%;
+                  min-width: 786px;
+                  padding-top: 3px;
+                  padding-bottom: 4px;
                   background: rgb(255, 102, 0);
                 }
                 
-                .pd407-0-0-0-0-0 {
+                .pd1318-0-0-0-1-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 0px;
+                  min-height: 26px;
+                  flex-shrink: 0;
+                  min-width: 786px;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-text-5 {
-                  min-height: 17px;
-                  margin-left: 0.8782936010037641%;
+                .pd1318-text-5 {
                   width: 63px;
+                  min-height: 17px;
+                  flex-shrink: 0;
                   font-family: Verdana, Geneva, sans-serif;
                   color: #000000;
                   font-size: 14px;
@@ -92,27 +114,35 @@ module.exports = ->
                   word-wrap: break-word;
                 }
                 
-                .pd407-image-5 {
-                  margin-left: 0%;
-                  width: 100%;
+                .pd1318-image-5 {
+                  width: 10px;
+                  flex-shrink: 0;
                   background-size: cover;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0-1-0 {
+                .pd1318-0-0-0-1-1-0-0-0-0-0-1-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 4px;
+                  width: 10px;
+                  min-height: 10px;
+                  flex-shrink: 0;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0-1 {
+                .pd1318-0-0-0-1-1-0-0-0-0-0-1 {
                   display: flex;
                   flex-direction: column;
-                  margin-left: 0%;
-                  width: 1.2547051442910917%;
+                  width: 10px;
+                  min-height: 36px;
+                  flex-shrink: 0;
+                  margin-left: 0px;
+                  padding-top: 4px;
+                  padding-bottom: 22px;
                 }
                 
-                .pd407-text-2 {
+                .pd1318-text-2 {
                   min-height: 17px;
                   font-family: Verdana, Geneva, sans-serif;
                   color: #000000;
@@ -125,19 +155,23 @@ module.exports = ->
                   width: 100%;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0-2-0-0 {
-                  margin-left: 0%;
-                  width: 690px;
+                .pd1318-0-0-0-1-1-0-0-0-0-0-2-0-0 {
+                  width: 100%;
+                  min-width: 0px;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0-2-0 {
+                .pd1318-0-0-0-1-1-0-0-0-0-0-2-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 0px;
+                  min-height: 17px;
+                  flex-shrink: 0;
+                  min-width: 0px;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-text-8 {
+                .pd1318-text-8 {
                   min-height: 17px;
                   font-family: Verdana, Geneva, sans-serif;
                   color: rgb(130, 130, 130);
@@ -150,62 +184,81 @@ module.exports = ->
                   width: 100%;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0-2-1-0 {
-                  margin-left: 0%;
-                  width: 690px;
+                .pd1318-0-0-0-1-1-0-0-0-0-0-2-1-0 {
+                  width: 100%;
+                  min-width: 0px;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0-2-1 {
+                .pd1318-0-0-0-1-1-0-0-0-0-0-2-1 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
+                  min-height: 17px;
+                  flex-shrink: 0;
+                  min-width: 0px;
                   margin-top: 2px;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-layout-8 {
-                  padding-bottom: 0px;
+                .pd1318-layout-8 {
                   display: flex;
                   flex-direction: column;
-                  margin-left: 0.2509410288582183%;
-                  width: 86.57465495608531%;
+                  min-height: 36px;
+                  width: 100%;
+                  min-width: 0px;
+                  margin-left: 2px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
                   background: rgba(0,0,0,0);
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0-0-0 {
+                .pd1318-0-0-0-1-1-0-0-0-0-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 0px;
+                  min-height: 36px;
+                  flex-shrink: 0;
+                  min-width: 107px;
+                  padding-left: 7px;
+                  padding-right: 25px;
                 }
                 
-                .pd407-layout-1 {
-                  padding-bottom: 0px;
+                .pd1318-layout-1 {
                   display: flex;
                   flex-direction: column;
+                  min-height: 36px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
                   background: rgba(228, 228, 228, 0);
                   width: 100%;
                 }
                 
-                .pd407-0-0-0-0-1-0-0-0 {
+                .pd1318-0-0-0-1-1-0-0-0 {
                   width: 100%;
                 }
                 
-                .pd407-0-0-0-0-1-0 {
-                  margin-left: 0%;
+                .pd1318-0-0-0-1-1-0 {
                   width: 100%;
+                  min-width: 107px;
                 }
                 
-                .pd407-0-0-0-0-1 {
+                .pd1318-0-0-0-1-1 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
+                  min-height: 36px;
+                  flex-shrink: 0;
+                  min-width: 107px;
                   margin-top: 11px;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-text-1 {
-                  min-height: 17px;
-                  margin-left: 10.037641154328734%;
+                .pd1318-text-1 {
                   width: 704px;
+                  min-height: 17px;
+                  flex-shrink: 0;
                   font-family: Verdana, Geneva, sans-serif;
                   color: rgb(130, 130, 130);
                   font-size: 14px;
@@ -216,31 +269,47 @@ module.exports = ->
                   word-wrap: break-word;
                 }
                 
-                .pd407-0-0-0-0-2 {
+                .pd1318-0-0-0-1-2 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
+                  width: 797px;
+                  min-height: 17px;
+                  flex-shrink: 0;
                   margin-top: 12px;
+                  padding-left: 80px;
+                  padding-right: 13px;
                 }
                 
-                .pd407-layout-0 {
+                .pd1318-layout-0 {
                   min-height: 2px;
-                  margin-left: 0%;
                   width: 100%;
+                  min-width: 0px;
                   background: rgb(255, 102, 0);
                 }
                 
-                .pd407-0-0-0-0-3 {
+                .pd1318-0-0-0-1-3 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 13px;
+                  min-height: 2px;
+                  flex-shrink: 0;
+                  min-width: 0px;
+                  margin-top: 10px;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-text-80 {
-                  min-height: 17px;
-                  margin-left: 0%;
+                .pd1318-0-0-0-1-4-0 {
+                  min-height: 0px;
+                  width: 100%;
+                  min-width: 0px;
+                }
+                
+                .pd1318-text-80 {
                   width: 797px;
+                  min-height: 17px;
+                  flex-shrink: 0;
                   font-family: Verdana, Geneva, sans-serif;
                   color: #000000;
                   font-size: 11px;
@@ -251,17 +320,21 @@ module.exports = ->
                   word-wrap: break-word;
                 }
                 
-                .pd407-0-0-0-0-4 {
+                .pd1318-0-0-0-1-4-1-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 10px;
+                  width: 797px;
+                  min-height: 17px;
+                  flex-shrink: 0;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-text-44 {
-                  min-height: 17px;
-                  margin-left: 0%;
+                .pd1318-text-44 {
                   width: 223px;
+                  min-height: 17px;
+                  flex-shrink: 0;
                   font-family: Verdana, Geneva, sans-serif;
                   color: rgb(130, 130, 130);
                   font-size: 13px;
@@ -272,112 +345,179 @@ module.exports = ->
                   word-wrap: break-word;
                 }
                 
-                .pd407-0-0-0-0-5-0-0 {
+                .pd1318-0-0-0-1-4-1-1-0-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 2px;
+                  width: 223px;
+                  min-height: 17px;
+                  flex-shrink: 0;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407-0-0-0-0-5-0 {
+                .pd1318-0-0-0-1-4-1-1-0 {
                   display: flex;
                   flex-direction: column;
-                  margin-left: 13.927227101631118%;
-                  width: 27.97992471769134%;
-                }
-                
-                .pd407-textinput-1 {
+                  width: 223px;
                   min-height: 19px;
-                  margin-left: 0.37641154328732745%;
-                  width: 21.20451693851945%;
+                  flex-shrink: 0;
+                  padding-top: 2px;
+                  padding-bottom: 0px;
                 }
                 
-                .pd407-0-0-0-0-5 {
+                .pd1318-textinput-1 {
+                  width: 169px;
+                  min-height: 19px;
+                  flex-shrink: 0;
+                  margin-left: 3px;
+                }
+                
+                .pd1318-0-0-0-1-4-1-1 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
+                  width: 797px;
+                  min-height: 19px;
+                  flex-shrink: 0;
                   margin-top: 15px;
+                  padding-left: 111px;
+                  padding-right: 291px;
                 }
                 
-                .pd407-layout-97 {
-                  padding-bottom: 15px;
+                .pd1318-layout-3 {
                   display: flex;
                   flex-direction: column;
-                  margin-left: 8.969072164948454%;
+                  width: 797px;
+                  min-height: 51px;
+                  flex-shrink: 0;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  background: rgba(0,0,0,0);
+                }
+                
+                .pd1318-0-0-0-1-4-2 {
+                  min-height: 0px;
+                  width: 100%;
+                  min-width: 0px;
+                }
+                
+                .pd1318-0-0-0-1-4 {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: flex-start;
+                  min-height: 51px;
+                  flex-shrink: 0;
+                  min-width: 797px;
+                  margin-top: 13px;
+                }
+                
+                .pd1318-layout-97 {
+                  display: flex;
+                  flex-direction: column;
+                  min-height: 193px;
                   width: 82.16494845360825%;
+                  min-width: 797px;
+                  padding-top: 0px;
+                  padding-bottom: 15px;
                   background: rgb(246, 246, 239);
                 }
                 
-                .pd407-0-0-0 {
+                .pd1318-0-0-0-2 {
+                  min-height: 0px;
+                  width: 8.969072164948454%;
+                  min-width: 0px;
+                }
+                
+                .pd1318-0-0-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 8px;
+                  min-height: 193px;
+                  flex-shrink: 0;
+                  min-width: 797px;
                 }
                 
-                .pd407-layout-80 {
-                  padding-bottom: 8px;
+                .pd1318-layout-80 {
                   display: flex;
                   flex-direction: column;
-                  margin-left: 0%;
+                  min-height: 209px;
                   width: 100%;
+                  min-width: 797px;
+                  padding-top: 9px;
+                  padding-bottom: 7px;
                   background: rgb(255, 255, 255);
                 }
                 
-                .pd407-0 {
+                .pd1318-0 {
                   display: flex;
                   flex-direction: row;
                   align-items: flex-start;
-                  margin-top: 0px;
+                  min-height: 209px;
+                  flex-shrink: 0;
+                  min-width: 797px;
+                  padding-left: 0px;
+                  padding-right: 0px;
                 }
                 
-                .pd407 {
+                .pd1318 {
                   display: flex;
                   flex-direction: column;
+                  min-height: 209px;
+                  min-width: 797px;
+                  padding-top: 0px;
+                  padding-bottom: 0px;
                 }
                 """}/>
         </span>
-        <div className="pd407-0">
-            <div className="pd407-layout-80">
-                <div className="pd407-0-0-0">
-                    <div className="pd407-layout-97">
-                        <div className="pd407-0-0-0-0-0">
-                            <div className="pd407-layout-9">
-                                <div className="pd407-0-0-0-0-0-0-0">
-                                    <img className="pd407-image-6" src="https://ucarecdn.com/3b0e01ee-b0cf-4da1-b793-44e337eb9768/" /> 
-                                    <div className="pd407-text-6">
+        <div className="pd1318-0">
+            <div className="pd1318-layout-80">
+                <div className="pd1318-0-0-0">
+                    <div className="pd1318-0-0-0-0">
+                        
+                    </div>
+                    <div className="pd1318-layout-97">
+                        <div className="pd1318-0-0-0-1-0">
+                            <div className="pd1318-layout-9">
+                                <div className="pd1318-0-0-0-1-0-0-0">
+                                    <img className="pd1318-image-6" src="https://ucarecdn.com/3b0e01ee-b0cf-4da1-b793-44e337eb9768/" /> 
+                                    <div className="pd1318-text-6">
                                         <div><b>Hacker News</b> &nbsp;new | threads | comments | show | ask | jobs | submit</div>
                                     </div>
-                                    <div className="pd407-text-4">
+                                    <div className="pd1318-0-0-0-1-0-0-0-2">
+                                        
+                                    </div>
+                                    <div className="pd1318-text-4">
                                         <div>{ this.un } ({ this.p }) | logout</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="pd407-0-0-0-0-1">
-                            <div className="pd407-0-0-0-0-1-0">
+                        <div className="pd1318-0-0-0-1-1">
+                            <div className="pd1318-0-0-0-1-1-0">
                                 { this.posts.map (p) =>
-                                    <div className="pd407-0-0-0-0-1-0-0-0">
-                                        <div className="pd407-layout-1">
-                                            <div className="pd407-0-0-0-0-1-0-0-0-0-0">
-                                                <div className="pd407-text-5">
+                                    <div className="pd1318-0-0-0-1-1-0-0-0">
+                                        <div className="pd1318-layout-1">
+                                            <div className="pd1318-0-0-0-1-1-0-0-0-0-0">
+                                                <div className="pd1318-text-5">
                                                     <div>{ p.i }.</div>
                                                 </div>
-                                                <div className="pd407-0-0-0-0-1-0-0-0-0-0-1">
-                                                    <div className="pd407-0-0-0-0-1-0-0-0-0-0-1-0">
-                                                        <img className="pd407-image-5" src="https://ucarecdn.com/b9cba6a1-8eb4-4a0c-bdd7-9f655492dab2/" /> 
+                                                <div className="pd1318-0-0-0-1-1-0-0-0-0-0-1">
+                                                    <div className="pd1318-0-0-0-1-1-0-0-0-0-0-1-0">
+                                                        <img className="pd1318-image-5" src="https://ucarecdn.com/b9cba6a1-8eb4-4a0c-bdd7-9f655492dab2/" /> 
                                                     </div>
                                                 </div>
-                                                <div className="pd407-layout-8">
-                                                    <div className="pd407-0-0-0-0-1-0-0-0-0-0-2-0">
-                                                        <a className="pd407-0-0-0-0-1-0-0-0-0-0-2-0-0" href={""+p.link+""}>
-                                                            <div className="pd407-text-2">
-                                                                <div>{ p.title }<span style={color: 'rgb(130, 130, 130)', fontSize: 10}>&nbsp;({ p.site })</span></div>		                                                            </div>
+                                                <div className="pd1318-layout-8">
+                                                    <div className="pd1318-0-0-0-1-1-0-0-0-0-0-2-0">
+                                                        <a className="pd1318-0-0-0-1-1-0-0-0-0-0-2-0-0" href={""+p.link+""}>
+                                                            <div className="pd1318-text-2">
+                                                                <div>{ p.title }<span style="color: rgb(130, 130, 130); font-size: 10.6667px;">&nbsp;({ p.site })</span></div>
+                                                            </div>
                                                         </a>
                                                     </div>
-                                                    <div className="pd407-0-0-0-0-1-0-0-0-0-0-2-1">
-                                                        <a className="pd407-0-0-0-0-1-0-0-0-0-0-2-1-0" href={""+p.link+""}>
-                                                            <div className="pd407-text-8">
+                                                    <div className="pd1318-0-0-0-1-1-0-0-0-0-0-2-1">
+                                                        <a className="pd1318-0-0-0-1-1-0-0-0-0-0-2-1-0" href={""+p.link+""}>
+                                                            <div className="pd1318-text-8">
                                                                 <div>{ p.points } by { p.poster } { p.time_ago }&nbsp;| { p.n_comments } comments</div>
                                                             </div>
                                                         </a>
@@ -389,33 +529,46 @@ module.exports = ->
                                 }
                             </div>
                         </div>
-                        <div className="pd407-0-0-0-0-2">
-                            <div className="pd407-text-1">
+                        <div className="pd1318-0-0-0-1-2">
+                            <div className="pd1318-text-1">
                                 <div>More</div>
                             </div>
                         </div>
-                        <div className="pd407-0-0-0-0-3">
-                            <div className="pd407-layout-0">
+                        <div className="pd1318-0-0-0-1-3">
+                            <div className="pd1318-layout-0">
                                 
                             </div>
                         </div>
-                        <div className="pd407-0-0-0-0-4">
-                            <div className="pd407-text-80">
-                                <div>Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | DMCA | Apply to YC | Contact</div>
+                        <div className="pd1318-0-0-0-1-4">
+                            <div className="pd1318-0-0-0-1-4-0">
+                                
                             </div>
-                        </div>
-                        <div className="pd407-0-0-0-0-5">
-                            <div className="pd407-0-0-0-0-5-0">
-                                <div className="pd407-0-0-0-0-5-0-0">
-                                    <div className="pd407-text-44">
-                                        <div>Search:</div>
+                            <div className="pd1318-layout-3">
+                                <div className="pd1318-0-0-0-1-4-1-0">
+                                    <div className="pd1318-text-80">
+                                        <div>Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | DMCA | Apply to YC | Contact</div>
                                     </div>
                                 </div>
+                                <div className="pd1318-0-0-0-1-4-1-1">
+                                    <div className="pd1318-0-0-0-1-4-1-1-0">
+                                        <div className="pd1318-0-0-0-1-4-1-1-0-0">
+                                            <div className="pd1318-text-44">
+                                                <div>Search:</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input className="pd1318-textinput-1">
+                                        
+                                    </input>
+                                </div>
                             </div>
-                            <input className="pd407-textinput-1">
+                            <div className="pd1318-0-0-0-1-4-2">
                                 
-                            </input>
+                            </div>
                         </div>
+                    </div>
+                    <div className="pd1318-0-0-0-2">
+                        
                     </div>
                 </div>
             </div>
